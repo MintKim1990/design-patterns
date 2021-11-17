@@ -36,6 +36,12 @@ public class Client {
      * 클라이언트 코드는 변함이 없다.
      *
      * 이러한 패턴을 Visitor 패턴이라한다.
+     *
+     * 장점
+     * 1. 기존 코드를 변경하지않고 Device 구현클래스만 구현하면서 얼마든지 확장이 가능하다.
+     *
+     * 단점
+     * 1. 구조가 복잡하기때문에 흐름을 파악하기 어렵다.
      */
 
     public static void main(String[] args) {
